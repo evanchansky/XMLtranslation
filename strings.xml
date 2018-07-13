@@ -1,0 +1,621 @@
+<resources>
+    <string name="app_name">HutchisonUbi</string>
+    <string name="api_key">AIzaSyDj1JQqUmNm69w8Dcbd6OJoqpUJuFht0IU</string>
+
+    <!--<string name="registration_welcome_text">Welcome to Hutchison Ports app.</string>-->
+    <string name="registration_welcome_text"><![CDATA[Welcome to BEST\'s \u003cHutchison Ports\u003e app.]]></string>
+    <string name="registration_text">Please let us know who you are so we \ncan provide a better, more personalised \nexperience (all fields are mandatory).</string>
+    <string name="registration_full_name_hint">Full Name</string>
+    <string name="registration_first_name_hint">First Name</string>
+    <string name="registration_last_name_hint">Last Name</string>
+    <string name="registration_company_name_hint">Company name</string>
+    <string name="registration_business_type_hint">Type of business</string>
+    <string name="registration_email_hint">E-mail</string>
+    <string name="registration_job_title_hint">Job title</string>
+    <string name="registration_language_hint">Select a language</string>
+
+    <string name="registration_full_name_alert">Full Name is required.</string>
+    <string name="registration_first_name_alert">First Name is required.</string>
+    <string name="registration_last_name_alert">Last Name is required.</string>
+    <string name="registration_company_name_alert">Company name is required.</string>
+    <string name="registration_business_type_alert">Business type is required.</string>
+    <string name="registration_email_alert">Email is required.</string>
+    <string name="registration_email_valid_alert">Enter a valid email.</string>
+    <string name="registration_job_title_alert">Job title is required.</string>
+
+    <string-array name="registration_business_type">
+        <item>Type of business</item>
+        <item>Shipping Line/Ship Agent</item>
+        <item>Shipper</item>
+        <item>External Tractor Driver</item>
+        <item>Tractor Company</item>
+        <item>Stevedore</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="registration_language">
+        <item>Spanish</item>
+        <item>Catalan</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="set_myhome">
+        <item>Haulier Information</item>
+        <item>Shipping Information</item>
+        <item>Rail Information</item>
+    </string-array>
+
+    <string name="go_btn">GO</string>
+
+
+    <string name="haulier_information_deliveries_alert">The container you are currently trying to find is not on our database.\n\nPlease try again later or add a different container number.</string>
+
+
+    <string name="learn_about_the_app">Learn about the App</string>
+    <string name="faqs">FAQs</string>
+    <string name="set_my_home_screen">Set your home screen</string>
+    <string name="my_profile">My Profile</string>
+    <string name="email_us">Email us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_the_app">Rate the App</string>
+    <string name="share_app_by_tweet">Share App by Tweet</string>
+    <string name="share_app_by_email">Share App by Email</string>
+    <string name="terms_of_use">Terms of Use</string>
+
+
+    <string name="haulier_information">Haulier Information</string>
+    <string name="shipping_information">Shipping Information</string>
+    <string name="rail_schedule">Rail Information</string>
+    <string name="weather">Weather</string>
+    <string name="app_information">App Information</string>
+    <string name="activate_notifications">Notifications</string>
+
+    <string name="discharged">Discharged</string>
+
+    <string name="collections">Collections</string>
+    <string name="deliveries">Deliveries</string>
+
+    <string name="import_text">Import</string>
+    <string name="export">Export</string>
+
+    <string name="instruction">Enter a container number to check its status within the progress timeline.</string>
+    <string name="instruction_hint">Enter a container number</string>
+
+    <string name="arrivals">Arrivals</string>
+    <string name="departures">Departures</string>
+    <string name="closing">Closing</string>
+
+
+    <string name="inbound">Inbound</string>
+    <string name="outbound">Outbound</string>
+
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="wind">Wind(mph)</string>
+    <string name="humidity">Humidity(%)</string>
+    <string name="visibility">Visibility</string>
+
+    <!-- haulier_information_collections -->
+    <string name="collections_vessel">VESSEL</string>
+    <string name="collections_vessel_arrives">ARRIVES</string>
+    <string name="collections_vessel_arrived">ARRIVED</string>
+    <string name="collections_terminal">TERMINAL</string>
+    <string name="collections_zone">ZONE</string>
+    <string name="collections_container_collected_at">Container Collected at</string>
+
+    <!-- haulier_information_deliveries -->
+    <string name="deliveries_arrival_time">Arrival time:</string>
+    <string name="deliveries_terminal">TERMINAL</string>
+    <string name="deliveries_container">Container:</string>
+    <string name="deliveries_hazardous_goods">HAZARDOUS GOODS</string>
+
+    <string name="recently_viewed">Recently viewed</string>
+
+    <!-- shipping detail -->
+    <string name="detail_arrives_in_terminal">ARRIVES IN TERMINAL</string>
+    <string name="detail_estimated_time_of_arrival">ESTIMATED ARRIVAL TIME</string>
+    <string name="detail_estimated_date_of_arrival">ESTIMATED ARRIVAL DATE</string>
+    <string name="detail_currently_in_port">CURRENTLY IN PORT</string>
+    <string name="detail_shipping_agent">SHIPPING AGENT</string>
+    <string name="detail_service">SERVICE</string>
+    <string name="detail_last_port">LAST PORT</string>
+    <string name="detail_next_port">NEXT PORT</string>
+    <string name="detail_gross_tonnage">GROSS WEIGHT</string>
+    <string name="detail_overall_length">LENGTH</string>
+    <string name="detail_apacity_teu">CAPACITY</string>
+    <string name="detail_nationality">NATIONALITY</string>
+
+    <string name="detail_estimated_time_of_departure">ESTIMATED DEPARTURE TIME</string>
+    <string name="detail_estimated_date_of_departure">ESTIMATED DEPARTURE DATE</string>
+    <string name="detail_departs_from">DEPARTS FROM TERMINAL</string>
+
+    <string name="detail_closing_time">CLOSING TIME</string>
+    <string name="detail_closing_date">CLOSING DATE</string>
+    <string name="detail_commence_time">COMMENCE TIME</string>
+    <string name="detail_commence_date">COMMENCE DATE</string>
+
+    <string name="in_port">In Port</string>
+
+    <!-- rail detail -->
+    <string name="rail_arrival">ARRIVAL TIME</string>
+    <string name="rail_departure">TIME OF DEPARTURE</string>
+    <string name="rail_operator">OPERATOR</string>
+    <string name="rail_terminal">TERMINAL</string>
+    <string name="rail_destination">DESTINATION</string>
+
+    <string name="set_my_home_text">This section will open by default every time you open the app.</string>
+
+    <string name="current_progress_stage">Current progress: Stage</string>
+    <string name="of">of</string>
+
+
+    <string name="follow_this_vessel">FOLLOW THIS VESSEL</string>
+    <string name="follow_this_container">FOLLOW THIS CONTAINER</string>
+    <string name="follow_this_train">FOLLOW THIS TRAIN</string>
+    <string name="unfollow_this_vessel">UNFOLLOW THIS VESSEL</string>
+    <string name="unfollow_this_container">UNFOLLOW THIS CONTAINER</string>
+    <string name="unfollow_this_train">UNFOLLOW THIS TRAIN</string>
+
+    <string name="unfollow_all_vessel">UNFOLLOW ALL VESSELS</string>
+    <string name="unfollow_all_container">UNFOLLOW ALL CONTAINERS</string>
+    <string name="unfollow_all_train">UNFOLLOW ALL TRAINS</string>
+    <string name="unfollow_all_port">UNFOLLOW ALL</string>
+
+    <string name="unfollow_selected_vessel">UNFOLLOW SELECTED VESSELS</string>
+    <string name="unfollow_selected_container">UNFOLLOW SELECTED CONTAINERS</string>
+    <string name="unfollow_selected_train">UNFOLLOW SELECTED TRAINS</string>
+    <string name="unfollow_selected_port">UNFOLLOW SELECTED</string>
+
+    <string name="full_following">You are already following the maximum of 10 containers. Please go to Notifications to unfollow a container/s in order to follow this one.</string>
+
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+
+    <string name="connection_error">Connection error, please try again</string>
+
+    <string name="terminal">TERMINAL</string>
+    <string name="ok">OK</string>
+    <string name="go">GO</string>
+
+    <string name="mail_hint"><![CDATA[Download Hutchison Ports New App ubi, You can track goods wherever you are.\n\nhttps://hutchisonports.com/ubi]]></string>
+    <!--<string name="mail_hint"><![CDATA[Download Hutchison Ports New App <a href="http://goo.gl/vs5XwX">ubi</a>, You can track goods wherever you are.]]></string>-->
+    <string name="share_hint">Download Hutchison Ports New App ubi, You can track goods wherever you are.\n\nhttp:/goo.gl/vs5XwX</string>
+
+
+    <string name="menu">Menu</string>
+    <string name="about">About</string>
+
+    <string name="no_notifications">NO NOTIFICATIONS</string>
+    <string name="new_notifications">NEW NOTIFICATIONS</string>
+    <string name="shipping_notifications">Shipping Notifications</string>
+    <string name="haulier_notifications">Haulier Notifications</string>
+    <string name="rail_notifications">Rail Notifications</string>
+
+
+    <string name="shipping_view_followed">View Followed Vessels</string>
+    <string name="haulier_view_followed">View Followed Containers</string>
+    <string name="rail_view_followed">View Followed Trains</string>
+    <string name="port_view_followed">View Notifications</string>
+    <string name="shipping_followed">FOLLOWED VESSELS</string>
+    <string name="haulier_followed">FOLLOWED CONTAINERS</string>
+    <string name="rail_followed">FOLLOWED TRAINS</string>
+    <string name="currently_following">CURRENTLY FOLLOWING</string>
+
+    <string name="shipping_notifications_hint">Please select a vessel in <u>Shipping Information</u>.\nYou can follow up to 5 vessels at a time.</string>
+    <string name="haulier_notifications_hint">Please enter a container number in <u>Haulier Information</u>.\nYou can follow up to 10 containers at a time.</string>
+    <string name="rail_notifications_hint">Please select a train in <u>Rail Information</u>.\nYou can follow up to 5 trains at a time.</string>
+    <string name="port_notifications_hint">Please select the Terminal updates option in <u>Terminal Updates</u>.</string>
+
+    <string name="arrival_time">ARRIVAL TIME</string>
+    <string name="arrival_date">ARRIVAL DATE</string>
+    <string name="arrival_time_date"><![CDATA[ARRIVAL TIME & DATE]]></string>
+
+
+    <string name="departure_time">DEPARTURE TIME</string>
+    <string name="departure_date">DEPARTURE DATE</string>
+
+    <string name="time">TIME</string>
+    <string name="date">DATE</string>
+    <string name="container">CONTAINER</string>
+    <string name="hazardous_goods">HAZARDOUS GOODS</string>
+
+    <string name="get_started">GET STARTED</string>
+
+    <string name="stage1">On the Way</string>
+    <string name="stage2">Arrived</string>
+    <string name="stage3">Discharged</string>
+    <string name="stage4">Collected</string>
+    <string name="stage4_hpt">OK to GO</string>
+
+    <string name="update">UPDATE</string>
+    <string name="close">CLOSE</string>
+    <string name="welcome">Welcome</string>
+    <string name="no">NO</string>
+    <string name="skip_introduction_video">Skip Introduction Video</string>
+
+    <string name="previous_searches">Previous Searches</string>
+    <string name="search_results">Search Results</string>
+
+    <string name="close_vessel">CLOSE FOLLOW VESSELS</string>
+    <string name="close_container">CLOSE FOLLOW CONTAINERS</string>
+    <string name="close_train">CLOSE FOLLOW TRAINS</string>
+    <string name="best">BEST</string>
+    <string name="updating">Updating</string>
+
+    <string name="enter_email">Enter your email address</string>
+    <string name="enter_code">Enter your verification code</string>
+
+    <string name="email_settings">Email Settings</string>
+    <string name="activate_mail">ACTIVATE EMAIL NOTIFICATIONS</string>
+    <string name="verify_mail">VERIFY EMAIL ADDRESS</string>
+    <string name="verify_mail_hint">Activating \"email notifications\" will send an email every time there has been a status change about your selected point of interest.\n\nTo enable email notifications we need to verify your email address, please enter your address below and follow the instructions in the received email.\n\nYou will only have 24 hours to enter this code before it expires.</string>
+
+
+    <string name="verify_mail_address">Verified email address</string>
+    <string name="language">Language</string>
+    <string name="who_you_are">Who you are</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- New added Menu item -->
+    <string name="tas">Truck Appointments</string>
+    <string name="eir">EIR</string>
+    <string name="cms">Gate In Slip</string>
+    <string name="copino">COPINO</string>
+    <string name="vessel_productivity">Vessel Operations</string>
+    <string name="terminal_updates">Terminal Updates</string>
+    <string name="logout">Logout</string>
+
+    <!-- Registration -->
+    <string name="registration_title">Register</string>
+    <string name="registration_heading_1">To access this feature you must register</string>
+    <string name="registration_heading_2">Please fill in your details below and check your \nemail inbox to complete your registration.</string>
+    <string name="registration_first_name">First name</string>
+    <string name="registration_last_name">Last name</string>
+    <string name="registration_company_name">Company name</string>
+    <string name="registration_position">Position</string>
+    <string name="registration_email_address">Email address</string>
+    <string name="registration_password">Password</string>
+    <string name="registration_password_2">(must be over 8 characters long and contain at least one number and one letter)</string>
+    <string name="registration_services_name">Services</string>
+    <string name="registration_services">Choose the services you require access to:</string>
+    <string name="registration_services_option_1">Truck Appointments</string>
+    <string name="registration_services_option_2">Gate In Slip</string>
+    <string name="registration_services_option_3">COPINO Enquiry</string>
+    <string name="registration_services_option_4">EIR (Equipment interchange receipt)</string>
+    <string name="registration_services_option_5">Vessel Operations</string>
+    <string name="registration_driver_id">Driver ID</string>
+    <string name="registration_company_email_address">Company email address</string>
+    <string name="registration_accept_terms_1">"I accept the "</string>
+    <string name="registration_accept_terms_2">Terms of Use</string>
+    <string name="registration_accept_terms_3">" and "</string>
+    <string name="registration_accept_terms_4">Privacy Policy</string>
+    <string name="registration_accept_terms_5">.</string>
+    <string name="reqistration_apply_for_copino">SUBMIT</string>
+    <string name="registration_awaiting_approval">Awaiting Approval</string>
+    <string name="registration_awaiting_approval_content">Your email address has now been verified and your application is waiting for approval.</string>
+    <string name="registration_awaiting_approval_content_2">We will contact you with an update shortly.</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_heading_1">To access this feature you must \nbe registered and logged in.</string>
+    <string name="login_not_registered">Not registered yet?</string>
+    <string name="login_completed_registration">Completed Registration?</string>
+    <string name="login_complete_details">Complete your details</string>
+    <string name="login_resend_verified_mail">Resend verification email</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login_forgotten_pw">Forgotten your password?</string>
+    <string name="login_reset_pw">Reset Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="logout_msg">Are you sure you want to log out?</string>
+    <string name="email_reminder">Please enter a valid email or password.</string>
+    <string name="email_reminder_2">The field should not be empty.</string>
+    <string name="terms_of_use_reminder">Please check terms of use.</string>
+
+    <!-- Resend Verification Email-->
+    <string name="resend_verified_email">Resend Verification Email</string>
+    <string name="resend_heading_1">Enter your email address below</string>
+    <string name="resend_heading_2">We will send your verification email so that \nyou can complete your registration.</string>
+    <string name="resend_button">RESEND</string>
+    <string name="resend_button_2">Please check your email inbox and follow the instructions to complete your registration.</string>
+    <string name="resend_check_email_format">Please check your email format.</string>
+
+    <!-- Forgotten Password-->
+    <string name="forgotten_pw">Forgotten Password</string>
+    <string name="forgotten_pw_heading_1">Enter your email address below</string>
+    <string name="forgotten_pw_heading_2">We will send you instructions on how to \nreset your password.</string>
+    <string name="forgotten_pw_button">SEND</string>
+    <string name="forgotten_pw_button_2">Please check your email inbox and follow the instructions to reset your password.</string>
+    <string name="forgotten_pw_check_email_format">Please check your email format.</string>
+
+    <!-- Reset Password -->
+    <string name="reset_pw">Reset Password</string>
+    <string name="reset_pw_heading_1">Enter your email address below</string>
+    <string name="reset_pw_heading_2">We will send you instructions on how to \nreset your password.</string>
+    <string name="reset_pw_new_pw">New Password</string>
+    <string name="reset_pw_reenter_pw">Re-enter Password</string>
+    <string name="reset_pw_button">RESET &amp; LOGIN</string>
+
+    <!-- Apply View-->
+    <string name="apply_title_tx">"Apply for "</string>
+    <string name="apply_btn_tx">"APPLY FOR "</string>
+    <!--
+    <string name="apply_hint">"To access "</string>
+    <string name="apply_hint_2">" you must apply.</string>
+    <string name="apply_hint_3">"If you would like to register for "</string>
+    <string name="apply_hint_4">", apply by selecting the button below."</string>
+    -->
+    <string name="apply_tas_hint">To access Truck Appointments you must apply.</string>
+    <string name="apply_tas_hint_2">If you would like to register for Truck Appointments, apply by selecting the button below.</string>
+    <string name="apply_cms_hint">To access Gate In Slip you must apply.</string>
+    <string name="apply_cms_hint_2">If you would like to register for Gate In Slip, apply by selecting the button below.</string>
+    <string name="apply_eir_hint">To access EIR you must apply.</string>
+    <string name="apply_eir_hint_2">If you would like to register for EIR, apply by selecting the button below.</string>
+    <string name="apply_copino_hint">To access COPINO you must apply.</string>
+    <string name="apply_copino_hint_2">If you would like to register for COPINO, apply by selecting the button below.</string>
+    <string name="apply_vp_hint">To access Vessel Operations you must apply.</string>
+    <string name="apply_vp_hint_2">If you would like to register for Vessel Operations, apply by selecting the button below.</string>
+    <string name="apply_enter_driver_id">Enter your driver ID</string>
+    <string name="apply_awaiting_1">Application Sent</string>
+    <string name="apply_awaiting_2">Please wait for approval</string>
+
+    <!-- COPINO View -->
+    <string name="copino_copino_no">"COPINO "</string>
+    <string name="copino_title">COPINOs</string>
+    <string name="copino_container_no">Container number:</string>
+    <string name="copino_movement_type">Movement type:</string>
+    <string name="copino_container_length">Container length:</string>
+    <string name="copino_hint">You currently don\'t have any COPINOs. As COPINOs are added for you they will appear here.</string>
+    <string name="copino_currently">CURRENTLY:</string>
+    <string name="copino_no_copino">No COPINOs</string>
+    <string name="copino_no_copino_hint">As COPINOs are added for you they will appear here.</string>
+
+    <!-- EIR View -->
+    <string name="eir_title">EIR\'s</string>
+    <string name="eir_currently">CURRENTLY:</string>
+    <string name="eir_no_eir">No EIR\'s</string>
+    <string name="eir_no_eir_hint">EIR\'s will be displayed here as soon as your gate exit is confirmed.</string>
+    <string name="eir_visit_id">"Visit ID "</string>
+    <string name="eir_licence_plate">Licence Plate:</string>
+    <string name="eir_driver">Driver:</string>
+    <string name="eir_company">Company:</string>
+    <string name="eir_pin">PIN:</string>
+    <string name="eir_drop_off_containers">Drop-off Container</string>
+    <string name="eir_ground_containers">Ground Container</string>
+    <string name="eir_container">Container:</string>
+    <string name="eir_iso_code">ISO Code:</string>
+    <string name="eir_seal">Seal:</string>
+    <string name="eir_load">Load:</string>
+    <string name="eir_gross_weight">Gross Weight:</string>
+    <string name="eir_position">Position:</string>
+    <string name="eir_copino">COPINO:</string>
+    <string name="eir_coparn">COPARN:</string>
+    <string name="eir_coreor">COREOR:</string>
+    <string name="eir_location">Location:</string>
+    <string name="eir_location_large">LOCATION:</string>
+    <string name="eir_lane">Lane</string>
+    <string name="eir_arrived_date_time">"Arrived on "</string>
+    <string name="eir_last_visit_id">LAST VISIT ID:</string>
+    <string name="eir_pickup_containers">Pickup Container</string>
+    <string name="eir_terminal_code">Terminal Code:</string>
+
+    <!-- CMS View -->
+    <string name="cms_title">Gate In Slip</string>
+    <string name="cms_currently">CURRENTLY:</string>
+    <string name="cms_no_cms">No Active Gate In Slip</string>
+    <string name="cms_no_cms_hint">You will be notified through the App when you have an active Gate In Slip available.</string>
+    <string name="cms_head_title">ACTIVE Gate In Slip:</string>
+    <string name="cms_head_block">"Proceed to "</string>
+    <string name="cms_driver">Driver:</string>
+    <string name="cms_company">Company:</string>
+    <string name="cms_licence_plate">Licence Plate:</string>
+    <string name="cms_drop_off_containers">Drop-off Container</string>
+    <string name="cms_pickup_containers">Pickup Container</string>
+    <string name="cms_container">Container:</string>
+    <string name="cms_iso_code">ISO Code:</string>
+    <string name="cms_seal">Seal:</string>
+    <string name="cms_position">Position:</string>
+    <string name="cms_copino">COPINO:</string>
+    <string name="cms_coparn">COPARN:</string>
+    <string name="cms_coreor">COREOR:</string>
+    <string name="cms_owner">Owner:</string>
+    <string name="cms_location">LOCATION:</string>
+    <string name="cms_instruction_text">Instruction text as per printed Gate In Slip</string>
+    <string name="cms_send_datetime">"Gate In Slip sent on "</string>
+
+    <!-- About View -->
+    <string name="about_find_us">FIND US - TERMINAL DIRECTIONS</string>
+
+    <!-- Vessel Operations -->
+    <string name="vessel_productivity_apply_hint">Enter your company email</string>
+    <string name="vessel_productivity_no_current_vessels">No Current Vessels</string>
+    <string name="vessel_productivity_not_yet_started">NOT YET STARTED</string>
+    <string name="vessel_productivity_on_schedule">ON SCHEDULE</string>
+    <string name="vessel_productivity_behind_schedule">HOUR BEHIND SCHEDULE</string>
+    <string name="vessel_productivity_completing_in">COMPLETING IN</string>
+    <string name="vessel_productivity_moves">MOVES</string>
+    <string name="vessel_productivity_actual_berthing">ACTUAL BERTHING</string>
+    <string name="vessel_productivity_operations_commencement">OPERATIONS COMMENCEMENT</string>
+    <string name="vessel_productivity_estimated_completion">ESTIMATED COMPLETION</string>
+    <string name="vessel_productivity_estimated_departure">ESTIMATED DEPARTURE</string>
+    <string name="vessel_productivity_voyage_code">VOYAGE CODE</string>
+    <string name="vessel_productivity_vessel_type">VESSEL TYPE</string>
+    <string name="vessel_productivity_service_code">SERVICE CODE</string>
+    <string name="vessel_productivity_berth_number">BERTH NUMBER</string>
+
+    <!-- Port Updates -->
+    <string name="port_update_updates">Updates</string>
+    <string name="port_update_announcement">Announcements</string>
+    <string name="port_update_operational_status">Operational Status</string>
+    <string name="port_terminal_update_announcement">Terminal Announcements</string>
+    <string name="port_terminal_update_operational_status">Terminal Operational Status</string>
+    <string name="port_update_follow_terminal_updates">FOLLOW TERMINAL UPDATES</string>
+    <string name="port_update_unfollow_terminal_updates">UNFOLLOW TERMINAL UPDATES</string>
+    <string name="port_update_follow_terminal_announcement">FOLLOW TERMINAL ANNOUNCEMENTS</string>
+    <string name="port_update_unfollow_terminal_announcement">UNFOLLOW TERMINAL ANNOUNCEMENTS</string>
+    <string name="port_update_follow_terminal_operational_status">FOLLOW TERMINAL \nOPERATIONAL STATUSES</string>
+    <string name="port_update_unfollow_terminal_operational_status">UNFOLLOW TERMINAL \nOPERATIONAL STATUSES</string>
+
+    <!-- Submit button -->
+    <string name="submit_btn">SUBMIT</string>
+
+    <!-- Port Update Notifications -->
+    <string name="port_update_notifications">Terminal Notifications</string>
+    <string name="port_update_notifications_hint">Please select the Terminal updates option in Terminal Updates.</string>
+
+    <!-- Walk Through -->
+    <string name="walkthrough_title_1">TERMINAL INFORMATION</string>
+    <string name="walkthrough_title_2">FOLLOW CONTAINER</string>
+    <string name="walkthrough_title_3">SHIPPING INFORMATION</string>
+    <string name="walkthrough_title_4">GATE IN SLIP</string>
+    <string name="walkthrough_title_5">GATE OUT RECEIPT</string>
+    <string name="walkthrough_title_6">NOTIFICATIONS</string>
+    <string name="walkthrough_content_1">You can now get the latest\nport information instantly...\nwherever you are... 24/7</string>
+    <string name="walkthrough_content_2">Find your container\nand follow its progress\nthrough the Port</string>
+    <string name="walkthrough_content_3">See the up-to-date\nShipping schedules and\nvessel information</string>
+    <string name="walkthrough_content_4">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.</string>
+    <string name="walkthrough_content_5">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.</string>
+    <string name="walkthrough_content_6">And easily set-up and\nmanage notifications so\nyou won\'t miss a thing.</string>
+    <string name="walkthrough_btn_started">GET STARTED</string>
+
+    <!-- Temp. error messaege for registrations -->
+    <string name="register_terms_of_uses_error">Terms of Use error</string>
+    <string name="register_text_fields_error">error</string>
+
+    <!-- Multiple BU - BU Selection -->
+    <string name="bu_selection">Port</string>
+    <string name="my_profile_bu_selection">Port</string>
+
+    <!-- Multiple BU - Language -->
+    <string name="registration_language_english">English</string>
+    <string name="registration_language_spanish">Spanish</string>
+    <string name="registration_language_catalan">Catalan</string>
+    <string name="registration_language_thai">Thai</string>
+
+    <!-- Multiple BU - Set home screen -->
+    <string name="set_myhome_shipping_information">Shipping Information</string>
+    <string name="set_myhome_haulier_information">Haulier Information</string>
+    <string name="set_myhome_rail_information">Rail Information</string>
+
+    <!-- Arrivals new items-->
+    <string name="detail_voyage_code">VOYAGE CODE</string>
+    <string name="detail_estimated_of_arrival">ESTIMATED ARRIVAL</string>
+    <string name="detail_estimated_of_departure">ESTIMATED DEPARTURE</string>
+    <string name="detail_estimated_of_closing">CLOSING</string>
+
+    <!-- QCP -->
+    <string name="qcp_view_qc_productivity">VIEW QC PRODUCTIVITY</string>
+    <string name="qcp_commencement_time_title">COMMENCEMENT TIME</string>
+    <string name="qcp_voyage_code">VOYAGE CODE:</string>
+    <string name="qcp_target_qc_rate">TARGET QC RATE:</string>
+    <string name="qcp_move_per_hour">MOVES PER HOUR</string>
+    <string name="qcp_cranes_information">Cranes Information</string>
+    <string name="qcp_total_moves">Total Moves</string>
+    <string name="qcp_completed_moves">Completed Moves</string>
+    <string name="qcp_outstanding_moves">Outstanding Moves</string>
+    <string name="qcp_total_loaded">Total Loaded</string>
+    <string name="qcp_remaining_loading">Remaining Loading</string>
+    <string name="qcp_total_discharged">Total discharged</string>
+    <string name="qcp_remaining_discharged">Remaining discharge</string>
+    <string name="qcp_operation_mode">Operation mode</string>
+    <string name="qcp_speed_up">Speed up</string>
+    <string name="qcp_net_rate">Net rate</string>
+    <string name="qcp_gross_rate">Gross rate</string>
+    <string name="qcp_commencement_time">Commencement time</string>
+    <string name="qcp_target_completion_time">Target completion time</string>
+    <string name="qcp_projected_completion_time">Projected completion time</string>
+    <string name="qcp_remaining_time">Remaining time</string>
+    <string name="qcp_cranes_mol_celebration">Cranes</string>
+
+
+    <!-- VGM -->
+    <string name="vgm_view">VIEW VGM</string>
+    <string name="vgm_vgm">VGM</string>
+    <string name="vgm_voyage_code">VOYAGE CODE</string>
+    <string name="vgm_gross_weight">GROSS WEIGHT</string>
+    <string name="vgm_type">VGM TYPE</string>
+    <string name="vgm_weighing_method">WEIGHING METHOD</string>
+    <string name="vgm_weighing_time">WEIGHING TIME</string>
+    <string name="vgm_weighing_date">WEIGHING DATE</string>
+    <string name="vgm_remarks">REMARKS</string>
+
+    <!-- TAS -->
+    <string name="tas_new_appointment">NEW APPOINTMENT</string>
+    <string name="tas_edit_appointment">EDIT APPOINTMENT</string>
+    <string name="tas_request_appointment">REQUEST APPOINTMENT</string>
+    <string name="tas_check_availability">CHECK AVAILABILITY</string>
+
+    <string name="tas_upcoming">Upcoming</string>
+    <string name="tas_past">Past</string>
+
+
+    <string name="tas_upcoming_up">UPCOMING:</string>
+    <string name="tas_past_up">PAST:</string>
+
+    <string name="tas_no_current">No Current\nAppointments</string>
+    <string name="tas_no_past">No Past\nAppointments</string>
+
+    <string name="tas_create_new_appointments">Create a new appointment\nby selecting a button below.</string>
+    <string name="tas_cancel_new_appointments">Are you sure you want to cancel\nthis Appointment?</string>
+    <string name="tas_delete_new_appointments">Are you sure you want to delete\nthis Appointment?</string>
+
+    <string name="tas_delete_confirmation">Delete Confirmation</string>
+    <string name="tas_cancel_confirmation">Cancel Confirmation</string>
+
+    <string name="tas_cancel_dialog">This container has been cancelled.</string>
+    <string name="tas_request_dialog">Appointment have been create.</string>
+    <string name="tas_request_title">Requesting...</string>
+
+    <string name="tas_pick_up">PICK-UP</string>
+    <string name="tas_ground">GROUND</string>
+    <string name="tas_pick_up_1">Pick-UP 1</string>
+    <string name="tas_pick_up_2">Pick-UP 2</string>
+    <string name="tas_ground_1">GROUND 1</string>
+    <string name="tas_ground_2">GROUND 2</string>
+
+
+    <string name="tas_pick_up_container_1">Pick-up Container 1</string>
+    <string name="tas_pick_up_container_2">Pick-up Container 2</string>
+    <string name="tas_ground_container_1">Ground Container 1</string>
+    <string name="tas_ground_container_2">Ground Container 2</string>
+
+
+    <string name="tas_container_number_pick_up_1">Container Number - Pick-up 1</string>
+    <string name="tas_container_number_pick_up_2">Container Number - Pick-up 2</string>
+    <string name="tas_container_number_ground_1">Container Number - Ground 1</string>
+    <string name="tas_container_number_ground_2">Container Number - Ground 2</string>
+
+    <string name="tas_contact_telephone_number">Contact Telephone Number</string>
+
+    <string name="tas_maximum">Maximum of 2 Pick-up and 2 ground per appointment.</string>
+
+    <string name="tas_day">Day(s)</string>
+
+    <string name="tas_terminals">Terminals</string>
+    <string name="tas_select_terminals">Select Terminals</string>
+
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thr">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+
+
+    <string name="yes">YES</string>
+
+    <!-- Menu Animation -->
+    <string name="menu_animation_duration">400</string>
+    <string name="menu_item_highlight_duration">300</string>
+    <string name="list_loading_animation_duration">1200</string>
+    <string name="menu_icon_animatin_duration">300</string>
+    <!--<string name="menu_animation_icon_line1_rotate_degree">44</string>-->
+    <!--<string name="menu_animation_icon_line1_rotate_degree_reverse">-44</string>-->
+    <!--<string name="menu_animation_icon_line1_translate_x">7.5</string>-->
+    <!--<string name="menu_animation_icon_line1_translate_x_reverse">-7.5</string>-->
+
+    <!-- Tablet Config -->
+    <bool name="isTablet">false</bool>
+
+</resources>
