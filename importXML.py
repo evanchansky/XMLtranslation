@@ -3,7 +3,7 @@
 	<xsd:element name="resources">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="string">
+				<xsd:element name="string" maxOccurs="unbounded">
 					<xsd:complexType>
 						<xsd:simpleContent>
 							<xsd:extension base="xsd:string">
